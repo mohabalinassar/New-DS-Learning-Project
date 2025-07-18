@@ -1,0 +1,35 @@
+name: dsproject
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_neumorphic: ^3.2.0  # or the latest version
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^9.1.1
+  dio: any
+  logger: ^2.4.0
+  easy_localization: ^3.0.7
+  pretty_dio_logger: ^1.4.0
+  cached_network_image: ^3.3.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.3
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
